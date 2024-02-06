@@ -29,3 +29,26 @@ console.log(myName.indexOf('a'))
 console.log(myName.lastIndexOf('a')) 
 
 
+const sentence = "The quick brown fox jump over the lazy dog."
+console.log(sentence.match('o'))
+console.log(sentence.length)
+const newString = sentence.substring(0, 4)
+console.log(newString)
+
+const anotherString1 = sentence.slice(0, 4)
+console.log(anotherString1)
+
+const anotherString2 = sentence.slice(-40, 8)
+console.log(anotherString2)
+// slice accepts the negative values but substring dont.
+
+console.log(sentence.split(' ')) // split a string into an array on the basis of spaces.
+
+
+const nameString = "  Hammad Tariq   "
+
+console.log(nameString.trim()) // works on white spaces and line terminators.
+
+const
+
+
