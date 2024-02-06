@@ -49,6 +49,10 @@ const nameString = "  Hammad Tariq   "
 
 console.log(nameString.trim()) // works on white spaces and line terminators.
 
-const
+const url = 'www.hammadtarek.online/hammad%20tarek'
+
+console.log(url.replace("%20" , '-'))
+console.log(url.includes("%20"))
+console.log(url.includes(" "))
 
 
