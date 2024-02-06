@@ -24,3 +24,8 @@ console.log(myName.charCodeAt(3))
 //The charCodeAt() method of String values returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index.
 console.log(myName.charCodeAt(-4)) // NaN
 
+console.log(myName.toUpperCase()) 
+console.log(myName.indexOf('a')) 
+console.log(myName.lastIndexOf('a')) 
+
+
