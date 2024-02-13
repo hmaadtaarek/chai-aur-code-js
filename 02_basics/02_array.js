@@ -3,6 +3,7 @@
 
 const marvelHeroes = ['Thor','Siderman','Captain America']
 const dcHeros = ['Superman', 'Flash','Batman']
+const newHeros = ['Ironman', 'Thynos']
 
 // console.log(marvelHeroes.push(dcHeros)) //gives length of the array
 // console.log(marvelHeroes) // merges the array as it is in the array in the originnal array.
@@ -15,3 +16,5 @@ const dcHeros = ['Superman', 'Flash','Batman']
 
 // kanch ke glass ko drop krde to wo dpread ho jai ga.
 
+const allHeroes = [...marvelHeroes, ...dcHeros,...newHeros]
+console.log(allHeroes)
