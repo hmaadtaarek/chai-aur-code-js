@@ -23,4 +23,9 @@ console.log(arr)
 arr.shift() // remove from start of array.
 console.log(arr)
 
+console.log(arr.includes(9))
+console.log(arr.includes(4))
+console.log(arr.indexOf(9))
+console.log(arr.indexOf(3))
+
 
