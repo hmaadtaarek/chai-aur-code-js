@@ -28,4 +28,9 @@ console.log(arr.includes(4))
 console.log(arr.indexOf(9))
 console.log(arr.indexOf(3))
 
+const myarr = arr.join() // converts array to string.
+console.log(myarr)
+
+
+
 
