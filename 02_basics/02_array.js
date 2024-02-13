@@ -33,8 +33,15 @@ console.log(Array.isArray("Hammad"))
 console.log(Array.isArray([1,2,3]))
 
 // convert to Array:
+// can be coverted ny 2 methods ".from " or ".of"
 
 console.log(Array.from("Hammad")) // can convert string , number object anything to array.
+console.log(typeof Array.from("Hammad")) 
+
+console.log(Array.of("Hammad")) 
+console.log(typeof(Array.of("Hammad"))) 
+
 console.log(Array.from({name : "hammad"}))  // INTERESTING CASE
 // return an empty array , we need to specifie that either convert keys into array or value into array.
+
 
