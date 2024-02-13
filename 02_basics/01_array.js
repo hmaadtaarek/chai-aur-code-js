@@ -43,7 +43,7 @@ const myNewArray2 = myArray.splice(1,3)
 // start from the first index value including the last index. i.e includes range. cut the elemnets from the original array hence change the original array.
 
 console.log(myNewArray2)
-console.log("c", myArray)
+console.log("C", myArray)
 
 
 
