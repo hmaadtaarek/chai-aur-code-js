@@ -17,4 +17,12 @@ const newHeros = ['Ironman', 'Thynos']
 // kanch ke glass ko drop krde to wo dpread ho jai ga.
 
 const allHeroes = [...marvelHeroes, ...dcHeros,...newHeros]
-console.log(allHeroes)
+// console.log(allHeroes)
+
+const anotherArray = [1,2,3,[4,5,6],7,[4,5,[6,7]]]
+
+const realArray = anotherArray.flat(Infinity)
+// give the depth of array to bhe flated in number e.g 1 ,2 ,3 etc , Infinity can be given for infinite number of arrays. 
+
+//"BUT IT IS NOT A GOOD PRACTICE"
+console.log(realArray)
