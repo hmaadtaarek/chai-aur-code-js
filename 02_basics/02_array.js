@@ -26,3 +26,15 @@ const realArray = anotherArray.flat(Infinity)
 
 //"BUT IT IS NOT A GOOD PRACTICE"
 console.log(realArray)
+
+// How to check if the datatype is array?
+
+console.log(Array.isArray("Hammad"))
+console.log(Array.isArray([1,2,3]))
+
+// convert to Array:
+
+console.log(Array.from("Hammad")) // can convert string , number object anything to array.
+console.log(Array.from({name : "hammad"}))  // INTERESTING CASE
+// return an empty array , we need to specifie that either convert keys into array or value into array.
+
