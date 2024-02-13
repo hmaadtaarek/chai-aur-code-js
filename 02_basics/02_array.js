@@ -46,3 +46,5 @@ console.log(Array.from({name : "hammad"}))  // INTERESTING CASE
 
 
 const score1 = 100
+const score2 = 200
+const score
