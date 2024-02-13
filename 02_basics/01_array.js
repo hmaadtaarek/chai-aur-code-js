@@ -33,10 +33,18 @@ console.log(myarr)
 
 const myArray = [1,2,3,4,5,6,7,8,9] 
 console.log("A", myArray)
-const myNewArray1 = myArray.slice(1,3) // start from the first index value and doesn't include the last index.
+const myNewArray1 = myArray.slice(1,3)
+ // start from the first index value and doesn't include the last index. i.e doesnot include range. take a copy of the original array doesnot change the original array
 
 console.log(myNewArray1)
 console.log("B", myArray)
+
+const myNewArray2 = myArray.splice(1,3) 
+// start from the first index value including the last index. i.e includes range. cut the elemnets from the original array hence change the original array.
+
+console.log(myNewArray2)
+console.log("c", myArray)
+
 
 
 
