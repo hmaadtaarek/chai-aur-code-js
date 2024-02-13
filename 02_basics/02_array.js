@@ -45,3 +45,4 @@ console.log(Array.from({name : "hammad"}))  // INTERESTING CASE
 // return an empty array , we need to specifie that either convert keys into array or value into array.
 
 
+const score1 = 100
