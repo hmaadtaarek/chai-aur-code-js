@@ -10,3 +10,8 @@ const dcHeros = ['Superman', 'Flash','Batman']
 
 // const concatHeros = marvelHeroes.concat(dcHeros)
 // console.log(concatHeros) // merges the array elemnts in the array ruturning the new array.
+
+// SPREAD METHOD...
+
+// kanch ke glass ko drop krde to wo dpread ho jai ga.
+
