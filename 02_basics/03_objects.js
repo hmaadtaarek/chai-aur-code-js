@@ -5,6 +5,7 @@
 
 //2. by object literals.
 const mysyb = Symbol("key1")
+
 const JSuser = {
     name : "Hammad",
     age : 19,
