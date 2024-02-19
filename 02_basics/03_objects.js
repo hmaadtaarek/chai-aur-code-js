@@ -10,7 +10,6 @@ const JSuser = {
     name : "Hammad",
     age : 19,
     [mysyb] : "mykey",
-    mysyb : "mykey1",
     email: "hammad@gmail.com",
     location: "lahore",
     isLogggedIn: false,
@@ -24,5 +23,6 @@ console.log(JSuser[mysyb])
 console.log(typeof JSuser[mysyb])
 console.log(JSuser.mysyb)
 console.log(typeof JSuser.mysyb)
+console.log(JSuser)
 
 JSuser.email = " hammadtariq@mail.comm"
