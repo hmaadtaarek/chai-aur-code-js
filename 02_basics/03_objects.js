@@ -1,10 +1,10 @@
-// objects are diclared by 2 methods.
+// objects are declared by 2 methods.
 // 1. By constructer method (singleton is formed.)
 // Object.create
 
 
-//2. by object literals.
 const mysyb = Symbol("key1")
+//2. by object literals.
 
 const JSuser = {
     name : "Hammad",
@@ -25,4 +25,3 @@ console.log(JSuser.mysyb)
 console.log(typeof JSuser.mysyb)
 console.log(JSuser)
 
-JSuser.email = " hammadtariq@mail.comm"
