@@ -5,6 +5,7 @@
 
 
 (function garmi (){
+    //named iife
     console.log("Too much garmi")
 })();
 //()():::: 1st(): for function . 2nd(): for execution ..... this is called iife.
