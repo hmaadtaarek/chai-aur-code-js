@@ -50,5 +50,27 @@ if (Object.keys(emptyObject).length === 0) //will convert the object to array th
 
 // Nullish Coalisence Operator. (??) : null , undefined.
 
+// its a type of safety check for null and undefined.
+
+let val1 = 5 ?? 10
+let val2 = null ?? 7 ?? 20
+let val3 = null ?? 10
+let val4 = undefined ?? 15
 
 
+console.log(val1)
+console.log(val2)
+console.log(val3)
+console.log(val4)
+
+
+
+// terniary operator (?):
+
+// syntax ::: condition statement ? true statement : flase statement.
+
+// exmaple:
+
+const teaPrice = 100
+
+teaPrice <= 80 ? console.log("price is less than 80") : console.log(" prie is above 80.")
