@@ -32,6 +32,8 @@ while (value <=10) {
 
 
 
+
+
 // do {
 //     console.log(`value is ${score}`)
 //     score++
