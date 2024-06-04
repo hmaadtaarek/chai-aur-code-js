@@ -29,6 +29,11 @@ while (value <=10) {
 
 
 
+let valu = "10000kjahkajdkljdkajdkjkjkjklll"
+
+
+
+
 
 
 
