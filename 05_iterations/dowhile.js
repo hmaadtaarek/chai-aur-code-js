@@ -39,6 +39,8 @@ let valu = "10000kjahkajdkljdkajdkjkjkjklll"
 
 
 
+
+
 // do {
 //     console.log(`value is ${score}`)
 //     score++
