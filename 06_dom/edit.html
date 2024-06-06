@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai Aur Javascript</title>
+</head>
+<body style="background-color: black;color: aliceblue;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+
+<script>
+    // adding a new element:
+
+function addLanguage(name){
+    const li = document.createElement('li')
+    li.innerHTML = name
+    document.querySelector(".language").appendChild(li)
+}
+
+addLanguage("python")
+addLanguage("typescript")
+
+// upper one is good but not optimized for long operations , for this we use below method.
+
+function optimizedLanguage (langName){
+    let li = document.createElement("li")
+    li.appendChild(document.createTextNode(langName))
+    document.querySelector(".language").appendChild(li)
+}
+
+optimizedLanguage("java")
+
+
+
+// Edit 1:
+
+    const secondLang = document.querySelector("li:nth-child(2)")
+    console.log(secondLang)
+
+    secondLang.innerHTML = "golang"
+
+// Edit 2:
+
+    const firstLang = document.querySelector("li:nth-child(1)")
+    console.log(firstLang)
+
+    firstLang.outerHTML = "<li>ruby</li>"
+// Edit 3:
+
+    const thirdLang = document.querySelector("li:nth-child(3)")
+    console.log(thirdLang)
+
+    thirdLang.textContent = 'c++'
+// Edit 4:
+
+    const forthLang = document.querySelector("li:nth-child(4)")
+    console.log(forthLang)
+    const newli = document.createElement("li")
+    newli.appendChild(document.createTextNode("typescript"))
+    forthLang.replaceWith(newli)
+
+
+// remove:
+
+    const lastLang = document.querySelector("li:last-child")
+    lastLang.remove()
+
+</script>
+</html>
