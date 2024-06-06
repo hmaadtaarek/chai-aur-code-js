@@ -1,0 +1,76 @@
+
+<!-- creating a new  element in dom -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom chai aur code.</title>
+</head>
+<body style="background-color: black;">
+    
+</body>
+
+    <script>
+        // const div = document.createElement("div")
+        // console.log(div)
+        // div.className = "parent"
+        // div.id = Math.round(Math.random()* 10 + 1)
+        // div.setAttribute("title" ," new title") // custom attribute setting.
+        // div.style.backgroundColor = "green"
+        // div.style.padding = "20px"
+        // div.style.fontSize = "3vw"
+        // div.style.textTransform = "uppercase"
+
+        // // div.innerHTML = "creating new element with dom | chai aur code" 
+
+        // // the approach uses more memory because innerhtml first take the value from html then change it , thats why some programmers say this way is not optimized.
+
+        // const addText = document.createTextNode("creating new element with dom | chai aur code.")
+        // div.appendChild(addText)
+
+        // // Showing/ attaching the div to show on the page.
+
+        // document.body.appendChild(div)
+
+        const className = ['Jordan', 'adidas','Nike']
+        const backgroundColor = ['red','green','skyblue']
+        const writting = ['Hammad','To cha gya h', 'Phla program bna lia.']
+
+
+        function CreateNewDiv(clas , bgc, text){
+            let div = document.createElement("div")
+            div.className = clas
+            console.log(div.className)
+            div.style.backgroundColor = bgc
+            div.style.fontSize = "15px"
+            div.style.padding = "15px"
+            div.style.textTransform = "uppercase"
+            div.innerHTML = text
+            // div.innerText = 
+
+
+            document.body.appendChild(div)
+        }
+
+
+        // for (let index = 0; index < className.length; index++) {
+        //     CreateNewDiv(className[index],backgroundColor[index],writting[index])
+            
+        // }
+
+        let value = 0
+        while (value < className.length) {
+            CreateNewDiv(className[value],backgroundColor[value],writting[value])
+            value = value + 1
+            
+        }
+        // CreateNewDiv("greatdiv","red","chai aur code")
+
+
+
+    </script>
+
+
+</html>
