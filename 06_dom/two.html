@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | CAurC</title>
+</head>
+<body style="background-color: black; color: aliceblue; display: flex; align-items: center;justify-content: center; width: 100%; height: 100vh;">
+    <div class="parent" style="font-size: 3vw;">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+
+<script>
+
+
+// accessing child through parent.
+
+    const parent = document.querySelector('.parent')
+    // console.log(parent)
+    // console.log(parent.children)
+    // console.log(parent.children[0])
+    // console.log(parent.children[0].innerHTML)
+
+
+    for (let i = 0; i < parent.children.length; i++) {
+        // console.log(parent.children[i].innerHTML);
+        
+    }
+
+    // console.log(parent.firstElementChild)
+    // console.log(parent.lastElementChild)
+
+
+    // accessing parent through child.
+
+    const dayOne = document.querySelector('.day')
+    console.log(dayOne)
+    // console.log(dayOne.parentElement)
+    console.log(dayOne.parentNode)
+    console.log(dayOne.nextElementSibling)
+    console.log(dayOne.nextSibling)
+    console.log(dayOne.childNodes)
+
+
+    console.log(parent.childNodes)
+    // gives the tree structure , how js is exicuted in browser.like we seen only 4 child but child nodes are given 9. single enter to next line is also counted.
+</script>
+</html>
